@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/koeandre/git/emulators/chip8/src/chip8.h
+cstdint
+-
+vector
+-
+
+/home/koeandre/git/emulators/chip8/src/main.cpp
+iostream
+-
+chrono
+-
+thread
+-
+cstdint
+-
+SDL2/SDL.h
+/home/koeandre/git/emulators/chip8/src/SDL2/SDL.h
+chip8.h
+/home/koeandre/git/emulators/chip8/src/chip8.h
+
